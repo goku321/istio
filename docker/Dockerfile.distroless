@@ -18,3 +18,5 @@ FROM distroless_source
 COPY --from=ubuntu_source /home/etc/passwd /etc/passwd
 COPY --from=ubuntu_source /home/etc/group /etc/group
 COPY --from=ubuntu_source /home/nonroot /home/nonroot
+
+# harmless comment
